@@ -9,16 +9,16 @@ Web developer
 Show Contacts
 
 Email
-richard@example.com
+davidouglass.ob@gmail.com
 
 Phone
-+1 (213) 352-2795
++234 90328 00676
 
 Birthday
-June 23, 1982
+June 23, 2005
 
 Location
-Sacramento, California, USA
+Portgentil, Gabon
 
 # navbar
 
