@@ -11,9 +11,6 @@
 
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -203,7 +200,7 @@
             building softwares, and growing online communities. I’ve done everything from web design to 
             running campaigns, and I currently manage social media and web development at <b>TYUETF.</b>
             I study Mechanical Engineering at FUTO and Software Engineering at BYU Ensign College, 
-            freelance on the side, and teach digital skills whenever I get the chance. I also cofounded CodeCaft Sudios with my buddy <b style="color:rgb(250, 221, 76);">Godwin</b>. Basically, 
+            freelance on the side, and teach digital skills whenever I get the chance. I also <b>cofounded CodeCaft Sudios</b> with my buddy <b style="color:rgb(250, 221, 76);">Godwin</b>. Basically, 
             I enjoy creating things, learning new stuff, and using tech to make life a little better.
           </p>
 
@@ -1208,20 +1205,21 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="https://formspree.io/f/xaqqwkkv" method="POST" class="form" data-form>
 
             <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="text" name="fullname" class="form-input" placeholder="Name" required data-form-input>
 
               <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
             </div>
 
             <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
+            <button class="form-btn" type="submit" data-form-btn>
               <ion-icon name="paper-plane"></ion-icon>
               <span>Send Message</span>
             </button>
+            <input type="hidden" name="_redirect" value="https://davidouglass.vercel.app/thank-you.html">
 
           </form>
 
